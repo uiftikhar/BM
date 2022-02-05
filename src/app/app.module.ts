@@ -3,9 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { HomeModule } from 'projects/home/src';
+import { UsersModule } from 'projects/users/src/public-api';
 
 import { SharedModule } from '../../projects/shared/src/lib/shared.module';
-// import { UsersModule } from 'projects/__users/src';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -14,11 +14,10 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // TODO remove this
     SharedModule,
     HomeModule,
     BrowserAnimationsModule,
-    // UsersModule,
+    UsersModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

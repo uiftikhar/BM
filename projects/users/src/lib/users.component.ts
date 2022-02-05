@@ -6,7 +6,10 @@ import {
 
 @Component({
   selector: 'lib-users',
-  template: ` <h1>Shit works</h1> `,
+  template: `
+    <app-nav></app-nav>
+    <h1>Shit works</h1>
+  `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class UsersComponent implements OnInit {
