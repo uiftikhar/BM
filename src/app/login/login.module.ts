@@ -10,7 +10,8 @@ import { MatRippleModule } from '@angular/material/core';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 
-import { SharedModule } from '../shared/shared.module';
+import { SharedModule } from 'projects/shared/src/public-api';
+
 import { LoginRoutingModule } from './login-routing.module';
 import { LoginComponent } from './login.component';
 
@@ -19,8 +20,8 @@ import { LoginComponent } from './login.component';
   imports: [
     CommonModule,
     LoginRoutingModule,
-    SharedModule,
     FormsModule,
+    SharedModule,
     ReactiveFormsModule,
     MatFormFieldModule,
     MatInputModule,
