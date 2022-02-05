@@ -1,6 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
+import { map } from 'rxjs/operators';
+
 export interface IUsers {
   email: string;
   password: string;
@@ -37,15 +39,39 @@ export interface IProjects {
 @Injectable()
 export class HomeService {
   getUsers() {
-    return this.http.get<IUsers[]>('/api/users');
+    return this.http
+      .get<IUsers[]>('/api/users')
+      .pipe(
+        map((users) =>
+          users
+            .sort((a, b) => (a.updatedAt < b.updatedAt ? 1 : -1))
+            .filter((_, index) => index < 5)
+        )
+      );
   }
 
   getGroups() {
-    return this.http.get<IGroups[]>('/api/groups');
+    return this.http
+      .get<IGroups[]>('/api/groups')
+      .pipe(
+        map((users) =>
+          users
+            .sort((a, b) => (a.updated_at < b.updated_at ? 1 : -1))
+            .filter((_, index) => index < 5)
+        )
+      );
   }
 
   getProjects() {
-    return this.http.get<IProjects[]>('/api/projects');
+    return this.http
+      .get<IProjects[]>('/api/projects')
+      .pipe(
+        map((users) =>
+          users
+            .sort((a, b) => (a.updated_at < b.updated_at ? 1 : -1))
+            .filter((_, index) => index < 5)
+        )
+      );
   }
 
   constructor(private http: HttpClient) {}

@@ -1,21 +1,13 @@
 import {
+  ChangeDetectionStrategy,
   Component,
   OnInit,
 } from '@angular/core';
 
-import { Observable } from 'rxjs';
-
-import {
-  HomeService,
-  IGroups,
-  IProjects,
-  IUsers,
-} from './home.service';
-
 @Component({
-  selector: 'lib-home',
+  selector: 'lib-users',
   template: `
-    <app-nav></app-nav>
+    <!-- <app-nav></app-nav>
     <app-content>
       <div class="container">
         <div class="row">
@@ -48,18 +40,13 @@ import {
           </div>
         </div>
       </div>
-    </app-content>
+    </app-content> -->
   `,
-  styles: [],
+  styleUrls: ['./users.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class HomeComponent implements OnInit {
-  public users$: Observable<IUsers[]>;
-  public groups$: Observable<IGroups[]>;
-  public projects$: Observable<IProjects[]>;
-  ngOnInit(): void {
-    this.users$ = this.homeService.getUsers();
-    this.groups$ = this.homeService.getGroups();
-    this.projects$ = this.homeService.getProjects();
-  }
-  constructor(private readonly homeService: HomeService) {}
+export class UsersComponent implements OnInit {
+  constructor() {}
+
+  ngOnInit(): void {}
 }

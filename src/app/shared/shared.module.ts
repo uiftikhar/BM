@@ -7,6 +7,7 @@ import {
 } from '@angular/forms';
 
 import { AuthInterceptor } from './interceptors/auth.interceptor';
+import { RetryInterceptor } from './interceptors/retry.interceptor';
 
 @NgModule({
   declarations: [],
@@ -17,11 +18,11 @@ import { AuthInterceptor } from './interceptors/auth.interceptor';
       useClass: AuthInterceptor,
       multi: true,
     },
-    // {
-    //   provide: HTTP_INTERCEPTORS,
-    //   useClass: RetryInterceptor,
-    //   multi: true,
-    // },
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: RetryInterceptor,
+      multi: true,
+    },
   ],
 })
 export class SharedModule {}

@@ -4,6 +4,7 @@
 
 ---
 
+X
 A default user has been created for you with email "amazing@admin.com" and password "admin"
 
 - Currently the application is accessible without a user authentication. If a user is not authenticated they should be redirected to the login page. Otherwise they can access the web application
@@ -13,6 +14,8 @@ Please remember that the "backend" requires an authentication header with a toke
 ## Home page
 
 ---
+
+X
 
 - Implement the logic to display the last 5 entries as seen in the screenshot for the projects, users & groups. Feel free to provide mock data for testing out the results
 

@@ -1,4 +1,14 @@
-import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  OnInit,
+} from '@angular/core';
+import {
+  FormControl,
+  FormGroup,
+} from '@angular/forms';
+
+import { LoginService } from './services/login.service';
 
 @Component({
   selector: 'app-login',
@@ -8,5 +18,22 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
   ngOnInit(): void {}
-  constructor() {}
+  constructor(private readonly loginService: LoginService) {}
+  form: FormGroup = new FormGroup({
+    username: new FormControl(''),
+    password: new FormControl(''),
+  });
+
+  submit() {
+    console.log(
+      this.form.get('username').value,
+      this.form.get('password').value
+    );
+    this.loginService
+      .authenticate(
+        this.form.get('username').value,
+        this.form.get('password').value
+      )
+      .subscribe();
+  }
 }
