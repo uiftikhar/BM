@@ -13,6 +13,13 @@ const routes: Routes = [
       ),
   },
   {
+    path: 'users',
+    loadChildren: () =>
+      import('./../../projects/users/src/lib/users.module').then(
+        (m) => m.UsersModule
+      ),
+  },
+  {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full',
