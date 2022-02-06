@@ -10,7 +10,7 @@
 - Add pagination with ten items per page.
 - Make the list rows to change background colour on hover.
 
-### Detail pages hints
+### Detail pages hints x
 
 As a typical CRUD application it makes heave usage of forms. All of the forms should have two buttons. Save & Cancel
 
@@ -20,6 +20,8 @@ As a typical CRUD application it makes heave usage of forms. All of the forms sh
   - When pressed it should navigate back to the list page without any changes to the database
 
 ### Detail pages secondary Tasks
+
+material ? central error service
 
 - On save/update operation error a general message should be displayed to the user above the form as a simple text
 - When there are some values in the form fields and the user presses cancel, an alert should notify the user if they are sure for that action with "ok" and "cancel" buttons.

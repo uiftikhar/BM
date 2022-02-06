@@ -31,7 +31,10 @@ import { UsersService } from '../users.service';
             <ul class="list-group">
               <ng-container *ngFor="let user of users$ | async">
                 <li class="list-group-item pointer">
-                  <div [routerLink]="'/edit'" [queryParams]="{ id: user.id }">
+                  <div
+                    [routerLink]="'/users/edit'"
+                    [queryParams]="{ id: user.id }"
+                  >
                     <h3>{{ user.first_name }} {{ user.last_name }}</h3>
                     <h4>{{ user.gender }}</h4>
                     <h4>{{ user.email }}</h4>

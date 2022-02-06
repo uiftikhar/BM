@@ -237,6 +237,46 @@
           }
         }
       }
+    },
+    "groups": {
+      "projectType": "library",
+      "root": "projects/groups",
+      "sourceRoot": "projects/groups/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/groups/tsconfig.lib.json",
+            "project": "projects/groups/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/groups/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/groups/src/test.ts",
+            "tsConfig": "projects/groups/tsconfig.spec.json",
+            "karmaConfig": "projects/groups/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/groups/tsconfig.lib.json",
+              "projects/groups/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "sbmfe"

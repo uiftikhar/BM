@@ -152,7 +152,6 @@ import { UsersService } from '../../users.service';
           </div>
         </div>
 
-        <!-- Submit Button -->
         <button [disabled]="!editUserForm.valid" class="btn btn-primary mr-1">
           Update
         </button>

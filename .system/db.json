@@ -139,42 +139,47 @@
     {
       "id": 1,
       "name": "Awesome group",
+      "user_ids": [
+        2,
+        1
+      ],
       "created_at": "2021-04-23T05:39:36Z",
-      "updated_at": "2021-04-23T06:39:36Z",
-      "user_ids": []
+      "updated_at": "2022-02-06T16:48:00.992Z"
     },
     {
       "id": 2,
       "name": "massa volutpat",
       "user_ids": [
-        2
+        2,
+        1
       ],
       "created_at": "2020-03-05T00:58:33Z",
-      "updated_at": "2022-01-17T16:20:29Z"
+      "updated_at": "2022-02-06T16:48:55.372Z"
     },
     {
       "id": 3,
       "name": "vulputate nonummy maec",
       "user_ids": [
-        3
+        2,
+        1
       ],
       "created_at": "2021-01-10T03:28:50Z",
-      "updated_at": "2021-12-30T04:21:26Z"
+      "updated_at": "2022-02-06T16:48:46.525Z"
     },
     {
       "id": 4,
       "name": "curae nulla dapibus",
       "user_ids": [
-        4
+        2
       ],
       "created_at": "2021-02-02T13:42:06Z",
-      "updated_at": "2022-01-04T20:59:18Z"
+      "updated_at": "2022-02-06T16:20:59.849Z"
     },
     {
       "id": 5,
       "name": "praesent blandit nam",
       "user_ids": [
-        5
+        1
       ],
       "created_at": "2020-09-15T14:55:11Z",
       "updated_at": "2021-12-28T13:57:05Z"
@@ -183,46 +188,11 @@
       "id": 6,
       "name": "molestie sed",
       "user_ids": [
-        6
+        1,
+        2
       ],
       "created_at": "2020-11-28T18:31:33Z",
-      "updated_at": "2021-12-27T22:14:20Z"
-    },
-    {
-      "id": 7,
-      "name": "nunc proin at",
-      "user_ids": [
-        7
-      ],
-      "created_at": "2020-02-29T10:37:11Z",
-      "updated_at": "2021-12-21T12:58:16Z"
-    },
-    {
-      "id": 8,
-      "name": "eu interdum",
-      "user_ids": [
-        8
-      ],
-      "created_at": "2020-09-12T19:09:02Z",
-      "updated_at": "2021-12-24T04:38:20Z"
-    },
-    {
-      "id": 9,
-      "name": "felis donec",
-      "user_ids": [
-        9
-      ],
-      "created_at": "2020-05-26T22:33:08Z",
-      "updated_at": "2022-01-01T10:11:14Z"
-    },
-    {
-      "id": 10,
-      "name": "morbi porttitor",
-      "user_ids": [
-        1
-      ],
-      "created_at": "2021-02-19T03:01:15Z",
-      "updated_at": "2022-01-10T07:59:16Z"
+      "updated_at": "2022-02-06T16:01:23.674Z"
     }
   ],
   "users": [
@@ -254,7 +224,7 @@
       "gender_id": 2,
       "created_at": "2022-02-06T11:12:28.676Z",
       "updated_at": "2022-02-06T11:12:28.676Z",
-      "id": 8
+      "id": 2
     }
   ]
 }

@@ -27,6 +27,10 @@
       "shared": [
         "dist/shared/shared",
         "dist/shared"
+      ],
+      "groups": [
+        "dist/groups/groups",
+        "dist/groups"
       ]
     }
   },

@@ -7,7 +7,7 @@ import {
 import { IUsers } from 'projects/home/src';
 import { Observable } from 'rxjs';
 
-import { UsersService } from '../../users.service';
+import { UsersService } from '../users.service';
 
 @Injectable()
 export class UserResolver implements Resolve<Observable<IUsers>> {

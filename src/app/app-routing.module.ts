@@ -20,6 +20,13 @@ const routes: Routes = [
       ),
   },
   {
+    path: 'groups',
+    loadChildren: () =>
+      import('./../../projects/groups/src/lib/groups.module').then(
+        (m) => m.GroupsModule
+      ),
+  },
+  {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full',

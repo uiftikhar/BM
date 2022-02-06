@@ -6,8 +6,8 @@ import {
 
 import { AddUserComponent } from './components/add-user/add-user.component';
 import { EditUserComponent } from './components/edit-user/edit-user.component';
-import { UserResolver } from './components/resolver/user.resolver';
 import { UsersComponent } from './components/users.component';
+import { UserResolver } from './resolver/user.resolver';
 
 const routes: Routes = [
   {
