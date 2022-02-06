@@ -63,7 +63,7 @@ export class UsersService {
       },
       gender_id: Number(user.gender),
       created_at: user.created_at,
-      updated_at: new Date().toISOString(),
+      updated_at: new Date(Date.now()).toISOString(),
     });
   }
 
@@ -88,8 +88,8 @@ export class UsersService {
         secondary: user.secondaryLanguage,
       },
       gender_id: Number(user.gender),
-      created_at: new Date().toISOString(),
-      updated_at: new Date().toISOString(),
+      created_at: new Date(Date.now()).toISOString(),
+      updated_at: new Date(Date.now()).toISOString(),
     });
   }
 }

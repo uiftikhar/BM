@@ -22,11 +22,6 @@ const routes: Routes = [
     path: 'edit',
     component: EditUserComponent,
     resolve: { user: UserResolver },
-    // children: [
-    //   {
-    //     path: ':id',
-    //   },
-    // ],
   },
 ];
 

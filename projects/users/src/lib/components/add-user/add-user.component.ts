@@ -25,7 +25,7 @@ import { UsersService } from '../../users.service';
     <app-content>
       <h1>Add new user</h1>
       <form [formGroup]="addUserForm" (ngSubmit)="onSubmit()">
-        <div class="input-wrapper">
+        <div class="input-wrapper mb-2">
           <div class="form-row">
             <div class="form-group col-5">
               <label>Email</label>
@@ -170,11 +170,12 @@ import { UsersService } from '../../users.service';
         </div>
 
         <!-- Submit Button -->
-        <div class="text-center">
-          <button [disabled]="!addUserForm.valid" class="btn btn-primary mr-1">
-            Register
-          </button>
-        </div>
+        <button [disabled]="!addUserForm.valid" class="btn btn-primary mr-1">
+          Register
+        </button>
+        <button [routerLink]="'/users'" class="btn btn-secondary">
+          cancel
+        </button>
       </form>
     </app-content>
   `,
@@ -218,7 +219,7 @@ export class AddUserComponent implements OnInit {
       firstName: ['', Validators.required],
       lastName: ['', Validators.required],
       password: ['', Validators.required],
-      gender: [''],
+      gender: [1],
       company: [''],
       primaryLanguage: ['', Validators.required],
       secondaryLanguage: [''],

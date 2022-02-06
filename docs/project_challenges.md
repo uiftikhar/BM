@@ -23,6 +23,8 @@ X
 
 ---
 
+x
+
 - Create the users list page. Please check [here](./docs/project_info.md) for the route
 - Add anywhere in the page an "Add User" button that navigates to the user creation page
 - Every list item in the page should display the following information
@@ -36,6 +38,8 @@ X
 ## User create/edit page
 
 ---
+
+X
 
 - Create the user create/edit page with the following fields for either creating a new user or updating an existing one.
   - Email (input, required)

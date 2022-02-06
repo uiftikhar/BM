@@ -17,80 +17,120 @@
     {
       "id": 1,
       "name": "The ECO Friendly Project",
-      "group_ids": [1],
-      "user_ids": [1],
+      "group_ids": [
+        1
+      ],
+      "user_ids": [
+        1
+      ],
       "created_at": "2021-04-23T05:39:36Z",
       "updated_at": "2021-04-23T06:39:36Z"
     },
     {
       "id": 2,
       "name": "Skid-Steer",
-      "group_ids": [2],
-      "user_ids": [2],
+      "group_ids": [
+        2
+      ],
+      "user_ids": [
+        2
+      ],
       "created_at": "2021-03-06T13:56:01Z",
       "updated_at": "2022-01-27T13:22:31Z"
     },
     {
       "id": 3,
       "name": "Skid-Steer",
-      "group_ids": [3],
-      "user_ids": [3],
+      "group_ids": [
+        3
+      ],
+      "user_ids": [
+        3
+      ],
       "created_at": "2020-12-11T18:44:44Z",
       "updated_at": "2021-12-27T11:26:20Z"
     },
     {
       "id": 4,
       "name": "Dump Truck",
-      "group_ids": [4],
-      "user_ids": [4],
+      "group_ids": [
+        4
+      ],
+      "user_ids": [
+        4
+      ],
       "created_at": "2021-01-21T05:35:49Z",
       "updated_at": "2022-01-16T22:49:17Z"
     },
     {
       "id": 5,
       "name": "Crawler",
-      "group_ids": [5],
-      "user_ids": [5],
+      "group_ids": [
+        5
+      ],
+      "user_ids": [
+        5
+      ],
       "created_at": "2021-02-21T23:39:17Z",
       "updated_at": "2022-01-26T10:38:06Z"
     },
     {
       "id": 6,
       "name": "Crawler",
-      "group_ids": [6],
-      "user_ids": [6],
+      "group_ids": [
+        6
+      ],
+      "user_ids": [
+        6
+      ],
       "created_at": "2020-03-24T02:00:30Z",
       "updated_at": "2022-01-12T04:46:00Z"
     },
     {
       "id": 7,
       "name": "Dump Truck",
-      "group_ids": [7],
-      "user_ids": [7],
+      "group_ids": [
+        7
+      ],
+      "user_ids": [
+        7
+      ],
       "created_at": "2021-04-03T20:23:16Z",
       "updated_at": "2021-12-23T10:32:32Z"
     },
     {
       "id": 8,
       "name": "Backhoe",
-      "group_ids": [8],
-      "user_ids": [8],
+      "group_ids": [
+        8
+      ],
+      "user_ids": [
+        8
+      ],
       "created_at": "2020-02-01T10:11:53Z",
       "updated_at": "2022-01-08T03:40:40Z"
     },
     {
       "id": 9,
       "name": "Crawler",
-      "group_ids": [9],
-      "user_ids": [9],
+      "group_ids": [
+        9
+      ],
+      "user_ids": [
+        9
+      ],
       "created_at": "2020-03-07T20:30:52Z",
       "updated_at": "2021-12-22T08:49:17Z"
     },
     {
       "id": 10,
       "name": "Skid-Steer",
-      "group_ids": [10],
-      "user_ids": [10],
+      "group_ids": [
+        10
+      ],
+      "user_ids": [
+        10
+      ],
       "created_at": "2020-01-04T17:29:56Z",
       "updated_at": "2022-01-01T08:44:35Z"
     }
@@ -106,63 +146,81 @@
     {
       "id": 2,
       "name": "massa volutpat",
-      "user_ids": [2],
+      "user_ids": [
+        2
+      ],
       "created_at": "2020-03-05T00:58:33Z",
       "updated_at": "2022-01-17T16:20:29Z"
     },
     {
       "id": 3,
       "name": "vulputate nonummy maec",
-      "user_ids": [3],
+      "user_ids": [
+        3
+      ],
       "created_at": "2021-01-10T03:28:50Z",
       "updated_at": "2021-12-30T04:21:26Z"
     },
     {
       "id": 4,
       "name": "curae nulla dapibus",
-      "user_ids": [4],
+      "user_ids": [
+        4
+      ],
       "created_at": "2021-02-02T13:42:06Z",
       "updated_at": "2022-01-04T20:59:18Z"
     },
     {
       "id": 5,
       "name": "praesent blandit nam",
-      "user_ids": [5],
+      "user_ids": [
+        5
+      ],
       "created_at": "2020-09-15T14:55:11Z",
       "updated_at": "2021-12-28T13:57:05Z"
     },
     {
       "id": 6,
       "name": "molestie sed",
-      "user_ids": [6],
+      "user_ids": [
+        6
+      ],
       "created_at": "2020-11-28T18:31:33Z",
       "updated_at": "2021-12-27T22:14:20Z"
     },
     {
       "id": 7,
       "name": "nunc proin at",
-      "user_ids": [7],
+      "user_ids": [
+        7
+      ],
       "created_at": "2020-02-29T10:37:11Z",
       "updated_at": "2021-12-21T12:58:16Z"
     },
     {
       "id": 8,
       "name": "eu interdum",
-      "user_ids": [8],
+      "user_ids": [
+        8
+      ],
       "created_at": "2020-09-12T19:09:02Z",
       "updated_at": "2021-12-24T04:38:20Z"
     },
     {
       "id": 9,
       "name": "felis donec",
-      "user_ids": [9],
+      "user_ids": [
+        9
+      ],
       "created_at": "2020-05-26T22:33:08Z",
       "updated_at": "2022-01-01T10:11:14Z"
     },
     {
       "id": 10,
       "name": "morbi porttitor",
-      "user_ids": [1],
+      "user_ids": [
+        1
+      ],
       "created_at": "2021-02-19T03:01:15Z",
       "updated_at": "2022-01-10T07:59:16Z"
     }
@@ -170,7 +228,8 @@
   "users": [
     {
       "email": "amazing@admin.com",
-      "first_name": "Amazing",
+      "password": "$2a$10$n.gWinss3EGJNlBsYJf4/.SSSMk5/pwwCOL4ASQqA72vfbQgK1hAS",
+      "first_name": "Amazingaa",
       "last_name": "Admin",
       "company": "Harvey LLC",
       "language": {
@@ -178,82 +237,23 @@
         "secondary": null
       },
       "gender_id": 1,
-      "created_at": "2021-09-21T18:22:05Z",
-      "updated_at": "2022-02-06T10:33:13.400Z",
+      "created_at": "2021-04-23T05:39:36Z",
+      "updated_at": "2022-02-06T11:00:21.502Z",
       "id": 1
     },
     {
-      "email": "cwyldbore8@hugedomains.com",
-      "password": "$2a$10$n.gWinss3EGJNlBsYJf4/.SSSMk5/pwwCOL4ASQqA72vfbQgK1hAS",
-      "id": 2,
-      "first_name": "Laïla",
-      "last_name": "Wyldbore",
-      "company": "Leexo",
+      "email": "w@w.2",
+      "password": "$2a$10$J2aPj5JYM2onC2K3z/.TE.C1O3mwTj9Wacl1fAXBBeuBZRaejQl2e",
+      "first_name": "w",
+      "last_name": "S",
+      "company": "QW",
       "language": {
-        "main": "Ndebele",
-        "secondary": null
+        "main": "ww",
+        "secondary": "wee"
       },
       "gender_id": 2,
-      "created_at": "2021-09-21T18:22:05Z",
-      "updated_at": "2021-06-15T11:26:25Z"
-    },
-    {
-      "email": "nboots9@aboutads.info",
-      "password": "$2a$10$n.gWinss3EGJNlBsYJf4/.SSSMk5/pwwCOL4ASQqA72vfbQgK1hAS",
-      "id": 3,
-      "first_name": "Cinéma",
-      "last_name": "Boots",
-      "company": "Dynabox",
-      "language": {
-        "main": "Ndebele",
-        "secondary": null
-      },
-      "gender_id": 3,
-      "created_at": "2021-05-15T16:53:59Z",
-      "updated_at": "2021-05-02T22:24:44Z"
-    },
-    {
-      "email": "gender@gender.com",
-      "password": "$2a$10$qh0WcSSKBVivsW0sWt/dLux2L8CoffyoYO1uhBawaplF6.M5.RW1e",
-      "first_name": "gender@gender.com",
-      "last_name": "gender@gender.com",
-      "company": "gender@gender.com",
-      "language": {
-        "main": "gender@gender.com",
-        "secondary": "gender@gender.com"
-      },
-      "gender_id": 2,
-      "created_at": "2021-09-21T18:22:05Z",
-      "updated_at": "2022-02-06T10:33:13.400Z",
-      "id": 6
-    },
-    {
-      "email": "t@t.com",
-      "password": "$2a$10$f//GgUJBCBe04gfIlu3ZCOg4GhJh4aQn3cI1I6C1x4Dcypnm0daXi",
-      "first_name": "f name",
-      "last_name": "l name",
-      "company": "company",
-      "language": {
-        "main": "p lang",
-        "secondary": "s lang"
-      },
-      "gender_id": 2,
-      "created_at": "2021-09-21T18:22:05Z",
-      "updated_at": "2022-02-06T10:33:13.400Z",
-      "id": 7
-    },
-    {
-      "email": "o@o.o",
-      "first_name": "this.editUserForm.value",
-      "last_name": "this.editUserForm.value",
-      "company": "this.editUserForm.value",
-      "language": {
-        "main": "this.editUserForm.value",
-        "secondary": "this.editUserForm.value"
-      },
-      "gender_id": 3,
-      "created_at": "2021-09-21T18:22:05Z",
-      "updated_at": "2022-02-06T10:33:05.888Z",
+      "created_at": "2022-02-06T11:12:28.676Z",
+      "updated_at": "2022-02-06T11:12:28.676Z",
       "id": 8
     }
   ]

@@ -26,7 +26,7 @@ import { UsersService } from '../../users.service';
     <app-content>
       <h1>Edit user: {{ user.first_name }} {{ user.last_name }}</h1>
       <form [formGroup]="editUserForm" (ngSubmit)="onSubmit()">
-        <div class="input-wrapper">
+        <div class="input-wrapper mb-2">
           <div class="form-row">
             <div class="form-group col-5">
               <label>Email</label>
@@ -85,7 +85,6 @@ import { UsersService } from '../../users.service';
                 class="form-control"
                 [ngClass]="{ 'is-invalid': submitted && f.gender.errors }"
               >
-                <!-- Get values from Gender endpoint? -->
                 <option value="1">Male</option>
                 <option value="2">Female</option>
                 <option value="3">Non-Binary</option>
@@ -154,11 +153,12 @@ import { UsersService } from '../../users.service';
         </div>
 
         <!-- Submit Button -->
-        <div class="text-center">
-          <button [disabled]="!editUserForm.valid" class="btn btn-primary mr-1">
-            Update
-          </button>
-        </div>
+        <button [disabled]="!editUserForm.valid" class="btn btn-primary mr-1">
+          Update
+        </button>
+        <button [routerLink]="'/users'" class="btn btn-secondary">
+          cancel
+        </button>
       </form>
     </app-content>
   `,
@@ -183,11 +183,11 @@ export class EditUserComponent implements OnInit {
   onSubmit() {
     // TODO Error handling
     this.submitted = true;
-    console.log(this.user);
     const formValues = {
       ...this.editUserForm.value,
       id: this.user.id,
       created_at: this.user.created_at,
+      password: this.user.password,
     } as IUsers;
     this.userService
       .editUser(formValues)
