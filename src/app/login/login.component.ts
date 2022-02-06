@@ -8,6 +8,8 @@ import {
   FormGroup,
 } from '@angular/forms';
 
+import { take } from 'rxjs/operators';
+
 import { LoginService } from './services/login.service';
 
 @Component({
@@ -25,15 +27,12 @@ export class LoginComponent implements OnInit {
   });
 
   submit() {
-    console.log(
-      this.form.get('username').value,
-      this.form.get('password').value
-    );
     this.loginService
       .authenticate(
         this.form.get('username').value,
         this.form.get('password').value
       )
+      .pipe(take(1))
       .subscribe();
   }
 }

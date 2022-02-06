@@ -20,7 +20,6 @@ export class UsersService {
             return users
               .sort((a, b) => (a.updated_at < b.updated_at ? 1 : -1))
               .map((user: IUsers) => {
-                console.log(user);
                 user.gender = genders
                   .find((gender) => gender.id === user.gender_id)
                   .name.toLowerCase();
