@@ -3,5 +3,5 @@
  */
 
 export * from './lib/users.service';
-export * from './lib/users.component';
+export * from './lib/components/users.component';
 export * from './lib/users.module';

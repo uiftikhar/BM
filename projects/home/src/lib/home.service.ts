@@ -3,6 +3,11 @@ import { Injectable } from '@angular/core';
 
 import { map } from 'rxjs/operators';
 
+export interface IGenders {
+  id: number;
+  name: string;
+}
+
 export interface IUsers {
   email: string;
   password: string;
@@ -10,13 +15,14 @@ export interface IUsers {
   first_name: string;
   last_name: string;
   gender_id: number;
+  gender: string;
   company: string;
   language: {
     main: string;
     secondary: string | null;
   };
-  createdAt: string;
-  updatedAt: string;
+  created_at: string;
+  updated_at: string;
 }
 
 export interface IGroups {
@@ -44,7 +50,7 @@ export class HomeService {
       .pipe(
         map((users) =>
           users
-            .sort((a, b) => (a.updatedAt < b.updatedAt ? 1 : -1))
+            .sort((a, b) => (a.updated_at < b.updated_at ? 1 : -1))
             .filter((_, index) => index < 5)
         )
       );
