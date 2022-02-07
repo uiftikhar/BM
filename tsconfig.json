@@ -11,14 +11,33 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
-    "lib": ["es2018", "dom"],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
     "paths": {
-      "home": ["dist/home/home", "dist/home"]
+      "home": [
+        "dist/home/home",
+        "dist/home"
+      ],
+      "users": [
+        "dist/users/users",
+        "dist/users"
+      ],
+      "shared": [
+        "dist/shared/shared",
+        "dist/shared"
+      ],
+      "groups": [
+        "dist/groups/groups",
+        "dist/groups"
+      ]
     }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true,
-    "strictTemplates": true
+    "strictTemplates": false,
+    "enableIvy": false
   }
 }

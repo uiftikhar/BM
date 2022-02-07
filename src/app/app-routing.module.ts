@@ -1,17 +1,40 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from 'projects/home/src';
-
-import { LoginComponent } from './login/login.component';
+import {
+  RouterModule,
+  Routes,
+} from '@angular/router';
 
 const routes: Routes = [
   {
+    path: 'home',
+    loadChildren: () =>
+      import('./../../projects/home/src/lib/home.module').then(
+        (m) => m.HomeModule
+      ),
+  },
+  {
+    path: 'users',
+    loadChildren: () =>
+      import('./../../projects/users/src/lib/users.module').then(
+        (m) => m.UsersModule
+      ),
+  },
+  {
+    path: 'groups',
+    loadChildren: () =>
+      import('./../../projects/groups/src/lib/groups.module').then(
+        (m) => m.GroupsModule
+      ),
+  },
+  {
     path: '',
-    component: HomeComponent,
+    redirectTo: 'home',
+    pathMatch: 'full',
   },
   {
     path: 'login',
-    component: LoginComponent,
+    loadChildren: () =>
+      import('./login/login.module').then((m) => m.LoginModule),
   },
 ];
 

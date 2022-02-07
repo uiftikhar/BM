@@ -4,6 +4,7 @@
 
 ---
 
+X
 A default user has been created for you with email "amazing@admin.com" and password "admin"
 
 - Currently the application is accessible without a user authentication. If a user is not authenticated they should be redirected to the login page. Otherwise they can access the web application
@@ -14,11 +15,15 @@ Please remember that the "backend" requires an authentication header with a toke
 
 ---
 
+X
+
 - Implement the logic to display the last 5 entries as seen in the screenshot for the projects, users & groups. Feel free to provide mock data for testing out the results
 
 ## Users list
 
 ---
+
+x
 
 - Create the users list page. Please check [here](./docs/project_info.md) for the route
 - Add anywhere in the page an "Add User" button that navigates to the user creation page
@@ -33,6 +38,8 @@ Please remember that the "backend" requires an authentication header with a toke
 ## User create/edit page
 
 ---
+
+X
 
 - Create the user create/edit page with the following fields for either creating a new user or updating an existing one.
   - Email (input, required)

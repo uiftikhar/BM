@@ -25,32 +25,206 @@
       ],
       "created_at": "2021-04-23T05:39:36Z",
       "updated_at": "2021-04-23T06:39:36Z"
+    },
+    {
+      "id": 2,
+      "name": "Skid-Steer",
+      "group_ids": [
+        2
+      ],
+      "user_ids": [
+        2
+      ],
+      "created_at": "2021-03-06T13:56:01Z",
+      "updated_at": "2022-01-27T13:22:31Z"
+    },
+    {
+      "id": 3,
+      "name": "Skid-Steer",
+      "group_ids": [
+        3
+      ],
+      "user_ids": [
+        3
+      ],
+      "created_at": "2020-12-11T18:44:44Z",
+      "updated_at": "2021-12-27T11:26:20Z"
+    },
+    {
+      "id": 4,
+      "name": "Dump Truck",
+      "group_ids": [
+        4
+      ],
+      "user_ids": [
+        4
+      ],
+      "created_at": "2021-01-21T05:35:49Z",
+      "updated_at": "2022-01-16T22:49:17Z"
+    },
+    {
+      "id": 5,
+      "name": "Crawler",
+      "group_ids": [
+        5
+      ],
+      "user_ids": [
+        5
+      ],
+      "created_at": "2021-02-21T23:39:17Z",
+      "updated_at": "2022-01-26T10:38:06Z"
+    },
+    {
+      "id": 6,
+      "name": "Crawler",
+      "group_ids": [
+        6
+      ],
+      "user_ids": [
+        6
+      ],
+      "created_at": "2020-03-24T02:00:30Z",
+      "updated_at": "2022-01-12T04:46:00Z"
+    },
+    {
+      "id": 7,
+      "name": "Dump Truck",
+      "group_ids": [
+        7
+      ],
+      "user_ids": [
+        7
+      ],
+      "created_at": "2021-04-03T20:23:16Z",
+      "updated_at": "2021-12-23T10:32:32Z"
+    },
+    {
+      "id": 8,
+      "name": "Backhoe",
+      "group_ids": [
+        8
+      ],
+      "user_ids": [
+        8
+      ],
+      "created_at": "2020-02-01T10:11:53Z",
+      "updated_at": "2022-01-08T03:40:40Z"
+    },
+    {
+      "id": 9,
+      "name": "Crawler",
+      "group_ids": [
+        9
+      ],
+      "user_ids": [
+        9
+      ],
+      "created_at": "2020-03-07T20:30:52Z",
+      "updated_at": "2021-12-22T08:49:17Z"
+    },
+    {
+      "id": 10,
+      "name": "Skid-Steer",
+      "group_ids": [
+        10
+      ],
+      "user_ids": [
+        10
+      ],
+      "created_at": "2020-01-04T17:29:56Z",
+      "updated_at": "2022-01-01T08:44:35Z"
     }
   ],
   "groups": [
     {
       "id": 1,
       "name": "Awesome group",
+      "user_ids": [
+        2,
+        1
+      ],
       "created_at": "2021-04-23T05:39:36Z",
-      "updated_at": "2021-04-23T06:39:36Z",
-      "user_ids": []
+      "updated_at": "2022-02-06T16:48:00.992Z"
+    },
+    {
+      "id": 2,
+      "name": "massa volutpat",
+      "user_ids": [
+        2,
+        1
+      ],
+      "created_at": "2020-03-05T00:58:33Z",
+      "updated_at": "2022-02-06T16:48:55.372Z"
+    },
+    {
+      "id": 3,
+      "name": "vulputate nonummy maec",
+      "user_ids": [
+        2,
+        1
+      ],
+      "created_at": "2021-01-10T03:28:50Z",
+      "updated_at": "2022-02-06T16:48:46.525Z"
+    },
+    {
+      "id": 4,
+      "name": "curae nulla dapibus",
+      "user_ids": [
+        2
+      ],
+      "created_at": "2021-02-02T13:42:06Z",
+      "updated_at": "2022-02-06T16:20:59.849Z"
+    },
+    {
+      "id": 5,
+      "name": "praesent blandit nam",
+      "user_ids": [
+        1
+      ],
+      "created_at": "2020-09-15T14:55:11Z",
+      "updated_at": "2021-12-28T13:57:05Z"
+    },
+    {
+      "id": 6,
+      "name": "molestie sed",
+      "user_ids": [
+        1,
+        2
+      ],
+      "created_at": "2020-11-28T18:31:33Z",
+      "updated_at": "2022-02-06T16:01:23.674Z"
     }
   ],
   "users": [
     {
       "email": "amazing@admin.com",
       "password": "$2a$10$n.gWinss3EGJNlBsYJf4/.SSSMk5/pwwCOL4ASQqA72vfbQgK1hAS",
-      "id": 1,
-      "first_name": "Amazing",
+      "first_name": "Amazingaa",
       "last_name": "Admin",
-      "gender_id": 1,
       "company": "Harvey LLC",
       "language": {
         "main": "Ndebele",
         "secondary": null
       },
+      "gender_id": 1,
       "created_at": "2021-04-23T05:39:36Z",
-      "updated_at": "2021-04-23T06:39:36Z"
+      "updated_at": "2022-02-06T11:00:21.502Z",
+      "id": 1
+    },
+    {
+      "email": "w@w.2",
+      "password": "$2a$10$J2aPj5JYM2onC2K3z/.TE.C1O3mwTj9Wacl1fAXBBeuBZRaejQl2e",
+      "first_name": "w",
+      "last_name": "S",
+      "company": "QW",
+      "language": {
+        "main": "ww",
+        "secondary": "wee"
+      },
+      "gender_id": 2,
+      "created_at": "2022-02-06T11:12:28.676Z",
+      "updated_at": "2022-02-06T11:12:28.676Z",
+      "id": 2
     }
   ]
 }

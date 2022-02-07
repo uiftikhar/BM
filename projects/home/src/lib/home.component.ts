@@ -1,6 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import {
+  Component,
+  OnInit,
+} from '@angular/core';
+
 import { Observable } from 'rxjs';
-import { HomeService, IGroups, IProjects, IUsers } from './home.service';
+
+import {
+  HomeService,
+  IGroups,
+  IProjects,
+  IUsers,
+} from './home.service';
 
 @Component({
   selector: 'lib-home',
@@ -12,17 +22,29 @@ import { HomeService, IGroups, IProjects, IUsers } from './home.service';
           <div class="col">
             <h6>Last 5 Users</h6>
             <ul class="list-group">
-              <li class="list-group-item" *ngFor="let user of users$ | async">
-                {{ user.first_name }} {{ user.last_name }}
-              </li>
+              <ng-container *ngFor="let user of users$ | async">
+                <li
+                  class="list-group-item pointer"
+                  [routerLink]="'/users/edit'"
+                  [queryParams]="{ id: user.id }"
+                >
+                  {{ user.first_name }} {{ user.last_name }}
+                </li>
+              </ng-container>
             </ul>
           </div>
           <div class="col">
             <h6>Last 5 Groups</h6>
-            <ul class="list-group">
-              <li class="list-group-item" *ngFor="let group of groups$ | async">
-                {{ group.name }}
-              </li>
+            <ul class="list-group pointer">
+              <ng-container *ngFor="let group of groups$ | async">
+                <li
+                  class="list-group-item"
+                  [routerLink]="'/groups/edit'"
+                  [queryParams]="{ id: group.id }"
+                >
+                  {{ group.name }}
+                </li>
+              </ng-container>
             </ul>
           </div>
           <div class="col">
